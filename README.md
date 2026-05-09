@@ -37,8 +37,20 @@ g7fx_signal_app/
 ## Quick Start
 
 ### 1. Install dependencies
+
+If your system blocks global `pip` installs (for example, Homebrew Python on macOS with `externally-managed-environment`), use a virtual environment:
+
 ```bash
-pip install oandapyV20 pandas numpy
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install oandapyV20 pandas numpy
+```
+
+If `pip` works globally in your environment, you can also run:
+
+```bash
+python3 -m pip install oandapyV20 pandas numpy
 ```
 
 ### 2. Run in demo mode (no API key needed)
