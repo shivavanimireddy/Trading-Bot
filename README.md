@@ -26,30 +26,21 @@ g7fx_signal_app/
 
 ---
 
-## Quick Start
 
-### 1. Install dependencies
-```bash
-pip install oandapyV20 pandas numpy
-```
+## Documentation
 
-### 2. Run in demo mode (no API key needed)
-```bash
-python main.py --demo
-```
+- [Project Overview](PROJECT_OVERVIEW.md)
+- [Run Guide & Signal Setup](RUN_AND_SIGNALS.md)
 
-### 3. Configure for live trading
-Edit `config/settings.py`:
-```python
-OANDA_API_KEY    = "your-key-here"
-OANDA_ACCOUNT_ID = "your-account-id"
-OANDA_ENVIRONMENT = "practice"   # Start with practice!
-```
+---
 
-Then run:
-```bash
-python main.py --balance 10000
-```
+## Setup & Run (Single Source of Truth)
+
+For complete beginner-friendly setup and run instructions (including **Windows**, **macOS**, and **Linux**), use:
+
+- [RUN_AND_SIGNALS.md](RUN_AND_SIGNALS.md)
+
+This keeps all installation and execution steps in one place.
 
 ---
 
